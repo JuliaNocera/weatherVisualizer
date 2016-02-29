@@ -1,0 +1,22 @@
+<div class={{weatherDesciption}}>
+ 	
+ 	<h1>{{greeting}}</h1>
+  
+  <form name="myForm" class="my-form">
+	  <input class="input" name="zip" ng-model="inputLocation" required ng-required="true" placeholder="zip code, country"  ng-pattern="/^\d{5}[,]\040[a-zA-Z]{1,}$/" autofocus="true">
+
+	  <button ng-disabled="myForm.zip.$invalid || myForm.zip.$error.required" type="submit" ng-click="getWeather()">find the weather</button>
+	  <div class="invalid-location-input" ng-show="myForm.zip.$error.pattern">Must be a valid zip code!</div>
+
+ </form>
+
+ <h1>{{result}}</h1>
+</div>
+
+
+	  <!-- <code>zip = {{inputLocation.zip}}</code><br>
+	  <code>myForm.input.$valid = {{myForm.input.$valid}}</code><br>
+	  <code>myForm.input.$error = {{myForm.input.$error}}</code><br>
+	  <code>myForm.$valid = {{myForm.$valid}}</code><br>
+	  <code>myForm.$invalid = {{myForm.$invalid}}</code><br>
+	  <code>myForm.$error.required = {{!!myForm.$error.required}}</code><br> -->

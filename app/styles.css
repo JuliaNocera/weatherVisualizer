@@ -1,0 +1,16 @@
+.my-form {
+	transition:all linear 0.5s;
+	background: transparent;
+}
+.zip-input.ng-invalid {
+	background: red;
+}
+.invalid-location-input {
+	color: red;
+	font-weight: bold;
+}
+.gray {
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+}

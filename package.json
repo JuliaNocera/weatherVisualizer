@@ -1,0 +1,20 @@
+{
+  "name": "node_weather_app",
+  "version": "1.0.0",
+  "description": "A weather app that makes an api call with zip to find current weather and returns an image of some kind",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaNocera/weatherVisualizer.git"
+  },
+  "author": "Julia Nocera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuliaNocera/weatherVisualizer/issues"
+  },
+  "homepage": "https://github.com/JuliaNocera/weatherVisualizer#readme", 
+  "dependencies": {
+    "express": "4.2.x", 
+    "body-parser": "^1.15.0"
+  }
+}

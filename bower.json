@@ -1,0 +1,15 @@
+{
+  "name": "weather_app",
+  "description": " weather app that makes an api call with zip code to find current weather",
+  "version": "1.0.0",
+  "homepage": "https://github.com/JuliaNocera/weatherVisualizer#readme",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.5.x",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1",
+    "angular-route": "1.5.0", 
+    "angular-resource": "1.5.0", 
+    "angular-animate": "1.5.0"
+  }
+}
